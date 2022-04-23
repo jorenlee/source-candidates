@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 
 export default defineConfig({
- base: '/source-dev.org/',
+ base: '/source-candidates/',
  plugins: [
   vue()
  ]
