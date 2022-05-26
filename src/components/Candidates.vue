@@ -6,14 +6,14 @@
           <li>
             <img
               class="object-cover object-center lg:w-24 w-20"
-              src="@/assets/logo/lsu-logo.png"
+              src="@/assets/img/logo/lsu-logo.png"
               alt=""
             />
           </li>
           <li>
             <img
               class="object-cover object-center lg:w-28 mt-1 w-24"
-              src="@/assets/logo/source-logo.png"
+              src="@/assets/img/logo/source-logo.png"
               alt=""
             />
           </li>
@@ -156,56 +156,56 @@
             name: "Jessa Mae E. Dabon",
             positionTitle: "President",
             courseAndYear: "BSIT-2",
-            profileUrl: require("@/assets/candidates/jessa.jpg"),
+            profileUrl: require("@/assets/img/candidates/jessa.jpg"),
           },
           {
             id: 2,
             name: "Andres Edman G. Olario",
             positionTitle: "President",
             courseAndYear: "BSCS-2",
-            profileUrl: require("@/assets/candidates/andres.jpg"),
+            profileUrl: require("@/assets/img/candidates/andres.jpg"),
           },
           {
             id: 3,
             name: "Harlie Quin Marc C. Quipit",
             positionTitle: "Vice President",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/harlie.jpg"),
+            profileUrl: require("@/assets/img/candidates/harlie.jpg"),
           },
           {
             id: 4,
             name: "Lord Emmanuel C. Figueras",
             positionTitle: "Vice President",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/emman.jpg"),
+            profileUrl: require("@/assets/img/candidates/emman.jpg"),
           },
           {
             id: 5,
             name: "Edyr Ryle G. Ilisan",
             positionTitle: "Secretary",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/ryle.jpg"),
+            profileUrl: require("@/assets/img/candidates/ryle.jpg"),
           },
           {
             id: 6,
             name: "Kissy Cyrine A. Garciano",
             positionTitle: "Secretary",
             courseAndYear: "BSIT-2",
-            profileUrl: require("@/assets/candidates/kissy.jpg"),
+            profileUrl: require("@/assets/img/candidates/kissy.jpg"),
           },
           {
             id: 7,
             name: "Cathylyn Shaine P. Olandre",
             positionTitle: "InfoMedia",
             courseAndYear: "BSCS-1",
-            profileUrl: require("@/assets/candidates/cathy.jpg"),
+            profileUrl: require("@/assets/img/candidates/cathy.jpg"),
           },
           {
             id: 8,
             name: "Lucy Mae Tan",
             positionTitle: "InfoMedia",
             courseAndYear: "BSIT-2",
-            profileUrl: require("@/assets/candidates/lucy.jpg"),
+            profileUrl: require("@/assets/img/candidates/lucy.jpg"),
           },
 
           {
@@ -213,63 +213,63 @@
             name: "Abby Kate V. Dela Pena",
             positionTitle: "Budget and Finance",
             courseAndYear: "BSCS-1",
-            profileUrl: require("@/assets/candidates/abby.jpg"),
+            profileUrl: require("@/assets/img/candidates/abby.jpg"),
           },
           {
             id: 10,
             name: "Ruffa Mae L. Arañez",
             positionTitle: "Budget and Finance",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/ruffa.jpg"),
+            profileUrl: require("@/assets/img/candidates/ruffa.jpg"),
           },
           {
             id: 11,
             name: "John Piolo H. Mutia",
             positionTitle: "Material Preparation and Services",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/piolo.jpg"),
+            profileUrl: require("@/assets/img/candidates/piolo.jpg"),
           },
           {
             id: 12,
             name: "Keith M. Ostia",
             positionTitle: "Material Preparation and Services",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/keith.jpg"),
+            profileUrl: require("@/assets/img/candidates/keith.jpg"),
           },
           {
             id: 13,
             name: "Mark Chezter M. Barcelo",
             positionTitle: "Logistics",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/mark.jpg"),
+            profileUrl: require("@/assets/img/candidates/mark.jpg"),
           },
           {
             id: 14,
             name: "Aliza Nicole M. Gumapac",
             positionTitle: "Logistics",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/aliza.jpg"),
+            profileUrl: require("@/assets/img/candidates/aliza.jpg"),
           },
           {
             id: 15,
             name: "Chris Heart E. Blanco",
             positionTitle: "Public Relations and Communications",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/heart.jpg"),
+            profileUrl: require("@/assets/img/candidates/heart.jpg"),
           },
           {
             id: 16,
             name: "Wena Mae V. Mabasa",
             positionTitle: "Public Relations and Communications",
             courseAndYear: "BSIT-1",
-            profileUrl: require("@/assets/candidates/wena.jpg"),
+            profileUrl: require("@/assets/img/candidates/wena.jpg"),
           },
           {
             id: 17,
             name: "Ruel Dean Buray",
             positionTitle: "Public Relations and Communications",
             courseAndYear: "BSCS-2",
-            profileUrl: require("@/assets/candidates/ruel.jpg"),
+            profileUrl: require("@/assets/img/candidates/ruel.jpg"),
           },
         ],
       };
