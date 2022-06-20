@@ -109,13 +109,12 @@ export default {
           courseAndYear: 'BSIT-2',
           profileUrl: require('@/assets/candidates/lucy.jpg')
         },
-        
         {
           id: 9,
-          name: 'Abby Kate V. Dela Pena',
+          name: 'Niel F. Laurete',
           positionTitle: 'Budget and Finance',
-          courseAndYear: 'BSCS-1',
-          profileUrl: require('@/assets/candidates/abby.jpg')
+          courseAndYear: 'BSIT-2',
+          profileUrl: require('@/assets/candidates/neil.jpg')
         },
         {
           id: 10,

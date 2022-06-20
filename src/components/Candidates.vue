@@ -24,7 +24,7 @@
           text-center
           mb-14
           text-xl
-          font-extrabold
+          font-bold
           text-transparent
           bg-clip-text bg-gradient-to-r
           from-green-400
@@ -36,7 +36,7 @@
       >
         LSU Student Organization Utilizing the Realm of Computer Eclecticism
         <br />Election for Officers A.Y. 2022-2023<br />
-        <span class="">List of All Candidates</span>
+        <span class="font-normal">Results Upate on JUNE 23, 2022</span>
       </h1>
       <div class="mx-auto mb-20 lg:w-9/12">
         <div class="lg:grid lg:grid-cols-2 lg:gap-10 lg:justify-evenly">
@@ -137,6 +137,25 @@
                 alt=""
               />
             </div>
+            <div
+              class="
+                absolute
+                top-3
+                lg:-right-6
+                w-16
+                h-14
+                overflow-hidden
+                text-white
+                text-2xl
+                rounded-full
+                pt-2.5
+                bg-green-500
+                border border-white
+                text-center
+              "
+            >
+             0%
+            </div>
           </div>
         </div>
       </div>
@@ -160,10 +179,10 @@
           },
           {
             id: 2,
-            name: "Andres Edman G. Olario",
+            name: "Ruel Dean Buray",
             positionTitle: "President",
             courseAndYear: "BSCS-2",
-            profileUrl: require("@/assets/img/candidates/andres.jpg"),
+            profileUrl: require("@/assets/img/candidates/ruel.jpg"),
           },
           {
             id: 3,
@@ -207,13 +226,12 @@
             courseAndYear: "BSIT-2",
             profileUrl: require("@/assets/img/candidates/lucy.jpg"),
           },
-
           {
             id: 9,
-            name: "Abby Kate V. Dela Pena",
+            name: "Neil F. Laurete",
             positionTitle: "Budget and Finance",
-            courseAndYear: "BSCS-1",
-            profileUrl: require("@/assets/img/candidates/abby.jpg"),
+            courseAndYear: "BSIT-2",
+            profileUrl: require("@/assets/img/candidates/neil.jpg"),
           },
           {
             id: 10,
@@ -263,16 +281,9 @@
             positionTitle: "Public Relations and Communications",
             courseAndYear: "BSIT-1",
             profileUrl: require("@/assets/img/candidates/wena.jpg"),
-          },
-          {
-            id: 17,
-            name: "Ruel Dean Buray",
-            positionTitle: "Public Relations and Communications",
-            courseAndYear: "BSCS-2",
-            profileUrl: require("@/assets/img/candidates/ruel.jpg"),
-          },
-        ],
-      };
-    },
+          }
+        ]
+      }
+    }
   }
 </script>

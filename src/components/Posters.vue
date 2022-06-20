@@ -4,6 +4,12 @@
       <div>
         <img class="object-cover mx-auto" :src="tes_banner" alt="" />
       </div>
+      <div class="mt-10 mx-auto px-20">
+        <video width="1200" height="300" controls class="mx-auto">
+            <source :src="fullVideo" type="video/mp4" />
+            <source :src="fullVideo" type="video/ogg" />
+          </video>
+      </div>
       <br />
       <div class="lg:grid lg:grid-cols-2 lg:gap-10 lg:justify-evenly">
         <div
@@ -72,7 +78,7 @@ export default {
     return {
       tes: [
         {
-          bannerPic: require("@/assets/img/posters/tes/andres.mp4"),
+          bannerPic: require("@/assets/img/posters/tes/ruel.mp4"),
         },
         {
           bannerPic: require("@/assets/img/posters/tes/emman.mp4"),
@@ -84,7 +90,7 @@ export default {
           bannerPic: require("@/assets/img/posters/tes/lucy.mp4"),
         },
         {
-          bannerPic: require("@/assets/img/posters/tes/abby.mp4"),
+          bannerPic: require("@/assets/img/posters/tes/neil.mp4"),
         },
         {
           bannerPic: require("@/assets/img/posters/tes/keith.mp4"),
@@ -93,7 +99,7 @@ export default {
           bannerPic: require("@/assets/img/posters/tes/aliza.mp4"),
         },
         {
-          bannerPic: require("@/assets/img/posters/tes/ruel.mp4"),
+          bannerPic: require("@/assets/img/posters/tes/wena.mp4"),
         },
       ],
       smile: [
@@ -127,7 +133,7 @@ export default {
           bannerPic: require("@/assets/img/posters/source/jessa.jpg"),
         },
         {
-          bannerPic: require("@/assets/img/posters/source/andres.jpg"),
+          bannerPic: require("@/assets/img/posters/source/ruel.jpg"),
         },
         {
           bannerPic: require("@/assets/img/posters/source/emman.jpg"),
@@ -148,7 +154,7 @@ export default {
           bannerPic: require("@/assets/img/posters/source/lucy.jpg"),
         },
         {
-          bannerPic: require("@/assets/img/posters/source/abby.jpg"),
+          bannerPic: require("@/assets/img/posters/source/neil.jpg"),
         },
         {
           bannerPic: require("@/assets/img/posters/source/ruffa.jpg"),
@@ -170,13 +176,11 @@ export default {
         },
         {
           bannerPic: require("@/assets/img/posters/source/wena.jpg"),
-        },
-        {
-          bannerPic: require("@/assets/img/posters/source/ruel.jpg"),
-        },
+        }
       ],
-      tes_banner: require("@/assets/img/posters/tes/tes_banner.jpg"),
+      tes_banner: require("@/assets/img/posters/tes/campaign-banner.jpg"),
       smile_banner: require("@/assets/img/posters/smile/smile_banner.gif"),
+      fullVideo: require("@/assets/img/posters/tes/TES_Video.mp4"),
     };
   },
 };
